@@ -62,6 +62,8 @@ def add_s(array)
   array.each_with_index do |word , i|
     if i != 1
    result << word.concat('s')
+ else
+   result << word
      end
   end
   result
