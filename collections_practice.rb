@@ -32,6 +32,7 @@ end
 def kesha_maker(array)
   result = []
   array.each do |i|
+    puts i[3]
     result << i[3].replace("$")
   end
   result
