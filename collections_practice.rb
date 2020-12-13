@@ -65,4 +65,5 @@ def add_s(array)
       continue
     else
       word.concat('s')
+    end
 end
