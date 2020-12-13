@@ -30,7 +30,7 @@ def reverse_array(array)
   j = 0
   while i > 0 
   array[i] = array[0]
-  
+  i = i - 1
   j = j + 1 
  end
 end
