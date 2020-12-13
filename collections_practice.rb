@@ -60,7 +60,7 @@ end
 def add_s(array)
   result = []
   array.each_with_index do |word|
-   result << word.concat('a')
+   result << word.concat('s')
   end
   result
 end
