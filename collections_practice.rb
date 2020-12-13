@@ -28,7 +28,7 @@ end
 def reverse_array(array)
   i = array.length - 1
   j = 0
-  while i > 0 
+  while i >= 0 
   temp = array[i]
   array[i] = array[0]
   array[0] = temp
