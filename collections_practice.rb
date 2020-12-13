@@ -59,12 +59,10 @@ end
 
 def add_s(array)
   result = []
-  array.each_with_index do |word , i|
-    if i != 1
-   result << word.concat('s')
- else
-   result << word
-     end
-  end
-  result
+  array.each_with_index.collect do |word , i|
+    
+    if i == 1
+      continue
+    else
+      word.concat('s')
 end
