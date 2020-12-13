@@ -49,7 +49,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  i = 0 
+  i = 1
   while i < array.length 
   array[0] = array[0] + array[i]
   puts "#{array[0]}  PLUS  #{array[i]}"
