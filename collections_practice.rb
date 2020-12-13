@@ -52,7 +52,7 @@ def sum_array(array)
   i = 0 
   while i < array.length 
   array[0] = array[0] + array[i]
-  puts array[0] " PLUS  "array[i]
+  puts "#{array[0]}  PLUS  #{array[i]}"
   i = i + 1
 end
 array[0]
