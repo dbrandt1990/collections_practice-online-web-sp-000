@@ -58,5 +58,9 @@ array[0]
 end
 
 def add_s(array)
-  array.each_with_index.collect{
+  result = []
+  array.each_with_index do |word|
+   result << word.concat('a')
+  end
+  result
 end
