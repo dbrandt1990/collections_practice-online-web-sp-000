@@ -47,3 +47,11 @@ def find_a(array)
   end
   result
 end
+
+def sum_array(array)
+  i = 0 
+  while i < array.length 
+  array[0] = array[0] + array[i]
+end
+array[0]
+end
