@@ -31,6 +31,6 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-    i
+    i[3] = $
   end
 end
