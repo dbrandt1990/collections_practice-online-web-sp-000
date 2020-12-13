@@ -32,10 +32,7 @@ end
 def kesha_maker(array)
   result = []
   array.each do |i|
-    word = i
-    word.splice!(3)
-    word[3] = "$"
-    bling =  word
+   word = i.sub(i[2], "$")
     puts word
     result << word
   end
