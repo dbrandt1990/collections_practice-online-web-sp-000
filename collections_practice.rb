@@ -33,6 +33,7 @@ def reverse_array(array)
   i = i - 1
   j = j + 1 
  end
+ array
 end
 
 def kesha_maker(array)
