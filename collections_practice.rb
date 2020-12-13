@@ -33,6 +33,7 @@ def kesha_maker(array)
   result = []
   array.each do |i|
     word = i
+    word.slice!(3)
     word[3] = "$"
     bling =  word
     puts word
